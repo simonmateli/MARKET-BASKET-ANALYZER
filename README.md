@@ -5,24 +5,6 @@
 ## 📌 Overview
 The **Market Basket Analyzer** leverages the **Apriori algorithm** to discover relationships between items in transactional data. It identifies frequently co-purchased products and generates **association rules** to support data-driven business decisions like promotions, recommendations, and store layout optimization.
 
----
-
-## 📸 Project Preview
-
-### 🔝 Top Purchased Items
-![Top Items](images/top_items.png)
-
-### 📊 Basket Size Distribution
-![Basket Size](images/basket_size.png)
-
-### 🔗 Association Rules Scatter Plot
-![Scatter Plot](images/scatter_plot.png)
-
-### 🕸️ Item Relationship Network
-![Network Graph](images/network_graph.png)
-
----
-
 ## Features
 - Data preprocessing and cleaning  
 - Exploratory Data Analysis (EDA)  
