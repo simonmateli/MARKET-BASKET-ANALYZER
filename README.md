@@ -1,10 +1,5 @@
 # 🛒 Market Basket Analyzer (Apriori Algorithm)
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)
-![ML](https://img.shields.io/badge/Machine%20Learning-Apriori-green.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-
 ---
 
 ## 📌 Overview
@@ -28,7 +23,7 @@ The **Market Basket Analyzer** leverages the **Apriori algorithm** to discover r
 
 ---
 
-## 🚀 Features
+## Features
 - Data preprocessing and cleaning  
 - Exploratory Data Analysis (EDA)  
 - Customer transaction insights  
@@ -39,14 +34,14 @@ The **Market Basket Analyzer** leverages the **Apriori algorithm** to discover r
 
 ---
 
-## 📂 Dataset
+## Dataset
 - Member_number → Customer ID  
 - Date → Transaction date  
 - itemDescription → Purchased item  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python  
 - pandas, numpy  
 - matplotlib, seaborn  
@@ -56,7 +51,7 @@ The **Market Basket Analyzer** leverages the **Apriori algorithm** to discover r
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 ```mermaid
 flowchart TD
@@ -70,7 +65,7 @@ flowchart TD
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Clone the Repository
 ```bash
@@ -90,7 +85,7 @@ jupyter notebook
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 - Customers purchase items in patterns  
 - Most associations are weak, but some are valuable  
 - Strong rules support targeted marketing  
@@ -98,7 +93,7 @@ jupyter notebook
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 - Product recommendation systems  
 - Cross-selling strategies  
 - Retail optimization  
@@ -106,7 +101,7 @@ jupyter notebook
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 - Implement FP-Growth  
 - Deploy as a web app  
 - Build real-time recommendations  
@@ -114,7 +109,7 @@ jupyter notebook
 
 ---
 
-## 🤝 Contributing
+## Contributing
 1. Fork the repo  
 2. Create a branch  
 3. Make changes  
@@ -122,10 +117,5 @@ jupyter notebook
 
 ---
 
-## ⭐ Support
-Give this project a star if you like it!
-
----
-
-## 📜 License
+## License
 MIT License
