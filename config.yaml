@@ -1,0 +1,61 @@
+# ============================================================
+# Market Basket Analyzer - Configuration File
+# ============================================================
+# Adjust these parameters to tune the analysis without
+# modifying the notebook code.
+
+# ----- Data -----
+data:
+  # Path to the groceries dataset CSV file.
+  # Use a relative path from the notebook directory.
+  filepath: "Groceries_dataset.csv"
+  # Column names expected in the dataset
+  member_col: "Member_number"
+  date_col: "Date"
+  item_col: "itemDescription"
+
+# ----- Apriori Parameters -----
+apriori:
+  # Minimum support threshold (0–1).
+  # Lower values find more (but potentially weaker) rules.
+  min_support: 0.001
+  # Metric used to filter association rules.
+  # Options: "confidence", "lift", "support", "leverage", "conviction"
+  metric: "confidence"
+  # Minimum threshold for the chosen metric.
+  min_threshold: 0.05
+  # Maximum number of items in an itemset (None = unlimited).
+  max_len: null
+
+# ----- Visualisation -----
+visualisation:
+  # Figure DPI for saved plots
+  dpi: 100
+  # Default colour palette
+  palette: "viridis"
+  # Number of top rules to display in bar charts
+  top_n_rules: 20
+  # Number of rules to use in the network graph
+  network_top_n: 50
+
+# ----- Statistical Testing -----
+statistics:
+  # Significance level for chi-square tests
+  alpha: 0.05
+
+# ----- Business Intelligence -----
+business:
+  # Assumed average transaction value (USD) used for ROI estimation
+  avg_transaction_value: 25.0
+  # Assumed uplift conversion rate from a recommendation
+  recommendation_conversion_rate: 0.10
+
+# ----- Logging -----
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR
+  level: "INFO"
+  # Log file path (relative to notebook directory). Set to null to disable.
+  logfile: "market_basket_analysis.log"
+
+# ----- Reproducibility -----
+random_seed: 42
